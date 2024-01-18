@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class ChatControl : MonoBehaviour
 {
     public GameObject UserChatPrefab;
+    GameObject InstancedUserChat;
 
     float ChatTimer = 1;
-    int TextCount = 0;
+
     public string[] RandomChat;
-   
+    public string[] UserNames;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,11 @@ public class ChatControl : MonoBehaviour
     void LiveUserChat()
     {
         int Index = Random.Range(0,RandomChat.Length);
-        Instantiate(UserChatPrefab, gameObject.transform).GetComponent<UserChat>().UserChatText.text = RandomChat[Index];
+        int Index2 = Random.Range(0,UserNames.Length);
+        InstancedUserChat = Instantiate(UserChatPrefab, gameObject.transform).gameObject;
+           
+        InstancedUserChat.GetComponent<UserChat>().UserChatText.text = RandomChat[Index];
+        InstancedUserChat.GetComponent<UserChat>().UserName.text = UserNames[Index2];
        
     }
 }
