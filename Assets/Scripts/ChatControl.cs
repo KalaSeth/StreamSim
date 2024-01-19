@@ -8,6 +8,10 @@ public class ChatControl : MonoBehaviour
     public GameObject UserChatPrefab;
     GameObject InstancedUserChat;
 
+    public GameObject SuperChatPrefab;
+    public GameObject SuperChatBase;
+    GameObject InstancedSuperChat;
+
     float ChatTimer = 1;
 
     public string[] RandomChat;
@@ -28,6 +32,12 @@ public class ChatControl : MonoBehaviour
         {
             LiveUserChat();
             ChatTimer = (.5f);//Random.Range(0.5f, 2.5f));
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            InstancedSuperChat = Instantiate(SuperChatPrefab, SuperChatBase.transform).gameObject;
+
         }
        
     }
