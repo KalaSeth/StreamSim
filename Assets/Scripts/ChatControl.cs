@@ -15,6 +15,8 @@ public class ChatControl : MonoBehaviour
     float ChatTimer = 1;
 
     public Sprite[] RandomIcon;
+    string[] MainChat;
+
 
     public string[] RandomChat;
     public string[] RandomChat1;
@@ -32,12 +34,14 @@ public class ChatControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+
         ChatTimer -= Time.deltaTime;
 
         if (ChatTimer <= 0)
@@ -54,6 +58,41 @@ public class ChatControl : MonoBehaviour
             InstancedSuperChat.GetComponent<SuperChat>().UserIcon.sprite = RandomIcon[Random.Range(0, RandomIcon.Length)];
         }
        
+    }
+
+    public void CurrentTexting()
+    {
+        if (GameManager.instance.TaskIndex == 0)
+        {
+            MainChat = RandomChat;
+        }else if (GameManager.instance.TaskIndex == 1)
+        {
+            MainChat = RandomChat1;
+        }
+        else if (GameManager.instance.TaskIndex == 2)
+        {
+            MainChat = RandomChat2;
+        }
+        else if (GameManager.instance.TaskIndex == 3)
+        {
+            MainChat = RandomChat3;
+        }
+        else if (GameManager.instance.TaskIndex == 4)
+        {
+            MainChat = RandomChat4;
+        }
+        else if (GameManager.instance.TaskIndex == 5)
+        {
+            MainChat = RandomChat5;
+        }
+        else if (GameManager.instance.TaskIndex == 6)
+        {
+            MainChat = RandomChat6;
+        }
+        else if (GameManager.instance.TaskIndex == 7)
+        {
+            MainChat = RandomChat7;
+        }
     }
 
     void LiveUserChat()

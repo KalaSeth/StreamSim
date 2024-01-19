@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public int TaskIndex;
     public string[] TaskChat;
 
+    public bool TPSMode;
+
+    public bool SitCatMode;
+
     private void Awake()
     {
         instance = this;
@@ -17,7 +21,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TPSMode = false;
+        SitCatMode = false;
     }
 
     // Update is called once per frame
