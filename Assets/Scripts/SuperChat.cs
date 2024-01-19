@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SuperChat : MonoBehaviour
 {
-    [SerializeField] Image UserIcon;
+    [SerializeField] public Image UserIcon;
     [SerializeField] Image ChatBase;
     [SerializeField] public Text UserName;
     [SerializeField] public Text SuperChatText;
@@ -17,14 +17,17 @@ public class SuperChat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UserIcon.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255), 255);
+        //UserIcon.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255), 255);
         ChatBase.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255), 255);
         ChatBase.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255), 255);
+        
+       
+        
 
         ProgSllider.maxValue = SuperTimer;
         ProgSllider.value = SuperTimer;
 
-        Destroy(gameObject, 15);
+        Destroy(gameObject, SuperTimer);
     }
 
     private void Update()

@@ -11,6 +11,8 @@ public class TPSCamera : MonoBehaviour
 
     public float rotateSpeed = 3f;
 
+    public Vector3 Offset;
+
     private void Awake()
     {
         
@@ -23,7 +25,7 @@ public class TPSCamera : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, targetPoint.position, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, targetPoint.position + Offset, moveSpeed * Time.deltaTime);
         transform.rotation = Quaternion.Lerp(transform.rotation, targetPoint.rotation, rotateSpeed * Time.deltaTime);
     }
 }

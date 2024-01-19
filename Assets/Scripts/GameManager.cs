@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public int TaskIndex;
-
+    public string[] TaskChat;
 
     private void Awake()
     {
