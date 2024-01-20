@@ -17,6 +17,16 @@ public class LevelSwitcher : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void StreamPaused()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void StreamResumed()
+    {
+        Time.timeScale = 1;
+    }
+
     public void ExitSim()
     {
         Application.Quit();

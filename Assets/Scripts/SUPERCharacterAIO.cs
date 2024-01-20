@@ -420,6 +420,13 @@ public class SUPERCharacterAIO : MonoBehaviour{
         
     }
     void Update(){
+
+            if (GameManager.instance.IsPaused == true)
+            {
+                PausePlayer(PauseModes.FreezeInPlace);
+            }
+            else UnpausePlayer();
+           
         if(!controllerPaused){
         #region Input
         #if ENABLE_INPUT_SYSTEM
