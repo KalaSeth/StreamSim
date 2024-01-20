@@ -28,7 +28,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SitCatMode = true;
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SitCatMode = false;
+        }
     }
 
    
