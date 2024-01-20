@@ -7,7 +7,8 @@ public class Cat_Controller : MonoBehaviour
     public static Cat_Controller instance;
     public GameObject Webcam;
     public Camera Cam;
-    public Camera CamMain;
+
+    public GameObject TargetChair;
 
     public float MovSpeed;
 
@@ -20,13 +21,16 @@ public class Cat_Controller : MonoBehaviour
     {
         if (GameManager.instance.SitCatMode == true)
         {
-           
-
             Cam.transform.position = Vector3.MoveTowards(Cam.transform.position, Webcam.transform.position, MovSpeed * Time.deltaTime);
             Cam.transform.rotation = Webcam.transform.rotation;
+            
+            if (GameManager.instance.CanWalk == false)
+            {
+                gameObject.transform.position = TargetChair.transform.position;
+                gameObject.transform.rotation = TargetChair.transform.rotation;
+            }
+
         }
-        else
-        {
-        }
+
     }
 }

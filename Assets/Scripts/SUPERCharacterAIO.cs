@@ -576,8 +576,12 @@ public class SUPERCharacterAIO : MonoBehaviour{
 
                     if (GameManager.instance.SitCatMode == true)
                     {
-                        HeadRotDirForInput = Mathf.MoveTowardsAngle(HeadRotDirForInput, Cat_Controller.instance.Webcam.transform.eulerAngles.y, bodyCatchupSpeed * (1 + Time.deltaTime));
-                        MovInput_Smoothed = Vector2.MoveTowards(MovInput_Smoothed, MovInput, inputResponseFiltering * (1 + Time.deltaTime));
+                        if(GameManager.instance.CanWalk == true) {
+                            HeadRotDirForInput = Mathf.MoveTowardsAngle(HeadRotDirForInput, Cat_Controller.instance.Webcam.transform.eulerAngles.y, bodyCatchupSpeed * (1 + Time.deltaTime));
+                            MovInput_Smoothed = Vector2.MoveTowards(MovInput_Smoothed, MovInput, inputResponseFiltering * (1 + Time.deltaTime));
+                        }
+
+                        
                     }
                     else
                     {

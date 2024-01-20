@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ChatControl : MonoBehaviour
 {
+    public static ChatControl instance;
+
     public GameObject UserChatPrefab;
     GameObject InstancedUserChat;
 
@@ -12,7 +14,7 @@ public class ChatControl : MonoBehaviour
     public GameObject SuperChatBase;
     GameObject InstancedSuperChat;
 
-    float ChatTimer = 1;
+    float ChatTimer;
 
     public Sprite[] RandomIcon;
     string[] MainChat;
@@ -30,6 +32,11 @@ public class ChatControl : MonoBehaviour
     public string[] RandomChat9;
 
     public string[] UserNames;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -50,14 +57,17 @@ public class ChatControl : MonoBehaviour
             ChatTimer = (.5f);//Random.Range(0.5f, 2.5f));
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            InstancedSuperChat = Instantiate(SuperChatPrefab, SuperChatBase.transform).gameObject;
-            InstancedSuperChat.GetComponent<SuperChat>().UserName.text = UserNames[Random.Range(0, UserNames.Length)];
-            InstancedSuperChat.GetComponent<SuperChat>().SuperChatText.text = GameManager.instance.TaskChat[GameManager.instance.TaskIndex];
-            InstancedSuperChat.GetComponent<SuperChat>().UserIcon.sprite = RandomIcon[Random.Range(0, RandomIcon.Length)];
-        }
-       
+        CurrentTexting();
+    }
+
+    public void SuperChatShow(int Donation)
+    {
+        int Ammount = Donation;
+        InstancedSuperChat = Instantiate(SuperChatPrefab, SuperChatBase.transform).gameObject;
+        InstancedSuperChat.GetComponent<SuperChat>().UserName.text = UserNames[Random.Range(0, UserNames.Length)];
+        InstancedSuperChat.GetComponent<SuperChat>().SuperChatText.text = GameManager.instance.TaskChat[GameManager.instance.TaskIndex];
+        InstancedSuperChat.GetComponent<SuperChat>().UserIcon.sprite = RandomIcon[Random.Range(0, RandomIcon.Length)];
+        InstancedSuperChat.GetComponent<SuperChat>().CashText.text = Ammount.ToString();
     }
 
     public void CurrentTexting()
@@ -65,34 +75,53 @@ public class ChatControl : MonoBehaviour
         if (GameManager.instance.TaskIndex == 0)
         {
             MainChat = RandomChat;
+            GameManager.instance.NewCash = Random.Range(15, 50);
         }else if (GameManager.instance.TaskIndex == 1)
         {
             MainChat = RandomChat1;
+            GameManager.instance.NewCash = Random.Range(40, 80);
         }
         else if (GameManager.instance.TaskIndex == 2)
         {
             MainChat = RandomChat2;
+            GameManager.instance.NewCash = Random.Range(60, 150);
         }
         else if (GameManager.instance.TaskIndex == 3)
         {
             MainChat = RandomChat3;
+            GameManager.instance.NewCash = Random.Range(100, 200);
         }
         else if (GameManager.instance.TaskIndex == 4)
         {
             MainChat = RandomChat4;
+            GameManager.instance.NewCash = Random.Range(150, 200);
         }
         else if (GameManager.instance.TaskIndex == 5)
         {
-            MainChat = RandomChat5;
+            MainChat = RandomChat5; 
+            GameManager.instance.NewCash = Random.Range(2000, 3000);
         }
         else if (GameManager.instance.TaskIndex == 6)
         {
             MainChat = RandomChat6;
+            GameManager.instance.NewCash = Random.Range(3500, 4000);
         }
         else if (GameManager.instance.TaskIndex == 7)
         {
             MainChat = RandomChat7;
+            GameManager.instance.NewCash = Random.Range(5000, 7000);
         }
+        else if (GameManager.instance.TaskIndex == 8)
+        {
+            MainChat = RandomChat8;
+            GameManager.instance.NewCash = Random.Range(10000, 12000);
+        }
+        else if (GameManager.instance.TaskIndex == 9)
+        {
+            MainChat = RandomChat9;
+            GameManager.instance.NewCash = Random.Range(10000, 12000);
+        }
+        
     }
 
     void LiveUserChat()

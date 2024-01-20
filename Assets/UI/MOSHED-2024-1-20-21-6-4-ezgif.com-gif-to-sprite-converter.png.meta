@@ -1,0 +1,1693 @@
+fileFormatVersion: 2
+guid: 2d64bf15e88457e40af869a7284862d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5066.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ca916e105b6a84e8209c534d495c6a
+      internalID: 1034268323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5066.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80925af2e879f146ae5ed1a5f0ac774
+      internalID: 1450150304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5066.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cb43ca4587ca45a9dc9544555b69a
+      internalID: -2069486290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5066.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c47660688d9aa4ab6c62066db0a4d5
+      internalID: 161457109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5066.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1098102eee5dd1a47be1e29dcb623429
+      internalID: -1673685300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4677.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a4c821d72421f41b563c2ff1bbe21b
+      internalID: 412567707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4677.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c9241dd8b1ef4586ecdb238295f60
+      internalID: 323257268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4677.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28d98911dbf30648b50ecc626395634
+      internalID: 1996948545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4677.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5051d081099ec245ae9455238e680a7
+      internalID: -1311183296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4677.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4cafa754c0f8c4fb8aaeeb82cd6c95
+      internalID: -1641460944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4288.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a9f4ffafb1d44e9a69dde921f1f77
+      internalID: -726213831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4288.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0f41c4600b0494db78c5a71baf07a1
+      internalID: -1798436424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4288.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677a5f877f35f7b4092a63904f3a92a8
+      internalID: 133258837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4288.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87ab0aa6cf61344e983bb983dad66e7
+      internalID: 588630474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4288.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a509fd36f566a45ba666c5accdd6e1
+      internalID: -593143485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3899.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeec7c2dba5dd447892332722c79e51
+      internalID: -1001100703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3899.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc22d22cb1ac2f4db224ce5825fa048
+      internalID: -374596868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3899.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7666860d43f457f418ce2f191904df88
+      internalID: 1744471499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_18
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3899.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f208abcf2274a64a8358275f1c97adf
+      internalID: -1527540105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3899.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acdc8b0fb8b1c447b46291a5b5b83f2
+      internalID: 596931980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3510.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2ab8f6f6cb0a64c9ba79914f899aa3
+      internalID: -1238790646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3510.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5808284e38b26f34f97745ccf36de5ef
+      internalID: 676465470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3510.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4b8ef5b8ee36a4886cd5c2ef5fcb55
+      internalID: -666362568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3510.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4024569ea148d9945ae881bbe6d4ebaa
+      internalID: 764019897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_24
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3510.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd8aa1cc5c9c5c488b4b4d4660e2ab6
+      internalID: -1852043288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3121.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c193dabd1607ec14e876f7ce59399a86
+      internalID: -536679826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3121.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b878c23bfa3424fb973fdc42d1da8a
+      internalID: 1959795093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3121.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7613ee87ca44ca448163b93271bc032
+      internalID: 1632217042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3121.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6991d25f4f7c6a044bd90f8958553192
+      internalID: -857997477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3121.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76f39d87457c864883b045d69751415
+      internalID: 280905632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2732.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fd29f95513795449d1a32de4c1a681
+      internalID: -1989315221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2732.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6487ba7c95f04bb47befe7fc6fce006d
+      internalID: 1029301210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2732.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f87489ac36284409af8479c4470c27
+      internalID: 281551206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_33
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2732.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05ae6d77046e9f45ba957d0e596d611
+      internalID: 1104857914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2732.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5851225b66f1dd4d83832825bf9c618
+      internalID: -1565408597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2343.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d4fd5bdfdca384b804b58d482c17e5
+      internalID: 1634918816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2343.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32e3a830f7b42945a0e826c9209aff3
+      internalID: -148512516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2343.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c974226d2e7c49aa96edbeb4cedb2
+      internalID: 627336339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2343.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de56da855803736489beccb39ad90959
+      internalID: 438539933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2343.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4c007f1baacbb429f8ef8a906e8736
+      internalID: -1371907638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1954.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b38c7b161236df489f9f6c9628b70d3
+      internalID: -173275743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1954.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ea3d3de5655c8408af166a7d7f9b43
+      internalID: 1072211883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1954.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96ff183e2c364447a639525202654fd
+      internalID: -2140862556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1954.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c360193855b3f0045baede9abe130d5c
+      internalID: 1224782107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_44
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1954.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd94379990a73c488672d2b7c68d077
+      internalID: 1102304244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1565.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef03c116a83a72a4ab0fe8e45990434d
+      internalID: -816389733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1565.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e2238965ced40449200c981c0de474
+      internalID: -460608658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1565.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77db4e1c70def514b9d7e2abca37a2af
+      internalID: 2103966455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1565.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415d3a93afe7bef41aa144865d3a1728
+      internalID: -946639666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_49
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1565.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc7491a378604449ed98dd575e5eb9
+      internalID: 1691071924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b0a3e64e99819448880baf737b1b3d
+      internalID: 486224767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1176.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaf65753a17311439ee808a804096d5
+      internalID: 2030420168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1176.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad683bf01022fc4ab2b1fa19c5cc0db
+      internalID: 1422170776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1176.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e5c98e3d32d194d87502d695140f1f
+      internalID: -1736272406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_54
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1176.2856
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ba066178464a649aab3054f6f7c706
+      internalID: 675125031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e501770145ee1bb428abc0bfac1e9677
+      internalID: -2016306430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 787.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7129165b38534a49892ee2e3b71562d
+      internalID: -184163298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_57
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 787.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08c4d4ac7a9ade468789927b6c381dd
+      internalID: 1000806006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_58
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 787.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2100fa09685914f9f2c495e37a91f2
+      internalID: -1596583170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_59
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 787.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f43d6dd91e4b6948ad8d2cc43d634f8
+      internalID: -744540663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e008babea4bd80746b1feab3a97db4cc
+      internalID: 251638184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 398.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99824319faac0a844a2aba8b438af20d
+      internalID: -2039924806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_62
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 398.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592d632f7383fa24cb80de6d18131999
+      internalID: 2046274475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 398.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4267bc66ce8fa42a7e06fbd2883684
+      internalID: -358766281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_64
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 398.2857
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc3d47136171df45a9375ebe994f7e1
+      internalID: 2002206025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9.285706
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55570e885f1b2b6439ddfc9d5f3a191a
+      internalID: 1525230830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 9.285706
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae0564e1769b734db0133796980eeba
+      internalID: -338719596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_67
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 9.285706
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860a72a03ea927540bdb82ae5093a289
+      internalID: -1915404650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_68
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 9.285706
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8af68c4c51a5d478de8020aebcc1ad
+      internalID: -424392376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_69
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 9.285706
+        width: 640
+        height: 389.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49806f0b03c9ff8428a6c18fcf5a6084
+      internalID: 549806738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_0: 1034268323
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_1: 1450150304
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_10: -726213831
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_11: -1798436424
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_12: 133258837
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_13: 588630474
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_14: -593143485
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_15: -1001100703
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_16: -374596868
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_17: 1744471499
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_18: -1527540105
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_19: 596931980
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_2: -2069486290
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_20: -1238790646
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_21: 676465470
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_22: -666362568
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_23: 764019897
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_24: -1852043288
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_25: -536679826
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_26: 1959795093
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_27: 1632217042
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_28: -857997477
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_29: 280905632
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_3: 161457109
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_30: -1989315221
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_31: 1029301210
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_32: 281551206
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_33: 1104857914
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_34: -1565408597
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_35: 1634918816
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_36: -148512516
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_37: 627336339
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_38: 438539933
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_39: -1371907638
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_4: -1673685300
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_40: -173275743
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_41: 1072211883
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_42: -2140862556
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_43: 1224782107
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_44: 1102304244
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_45: -816389733
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_46: -460608658
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_47: 2103966455
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_48: -946639666
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_49: 1691071924
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_5: 412567707
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_50: 486224767
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_51: 2030420168
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_52: 1422170776
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_53: -1736272406
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_54: 675125031
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_55: -2016306430
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_56: -184163298
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_57: 1000806006
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_58: -1596583170
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_59: -744540663
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_6: 323257268
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_60: 251638184
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_61: -2039924806
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_62: 2046274475
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_63: -358766281
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_64: 2002206025
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_65: 1525230830
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_66: -338719596
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_67: -1915404650
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_68: -424392376
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_69: 549806738
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_7: 1996948545
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_8: -1311183296
+      MOSHED-2024-1-20-21-6-4-ezgif.com-gif-to-sprite-converter_9: -1641460944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
