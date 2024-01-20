@@ -18,16 +18,17 @@ public class GameManager : MonoBehaviour
 
     public Text ViewsText;
     public Text StreamTimeText;
+    public string BitsText;
 
     public int CurrentViewers, NewViewer, ViewRate;
     public int Cash, NewCash;
     float StreamTimer;
     float Counter;
 
-
     public GameObject PauseMenu;
     public GameObject CamZizz;
     public GameObject CamZizzParent;
+    public GameObject DonationBits;
 
     private void Awake()
     {
@@ -128,7 +129,15 @@ public class GameManager : MonoBehaviour
     public void NewDonation()
     {
         ChatControl.instance.SuperChatShow(NewCash);
+        DonationBitShow();
         GotDonation = false;
+    }
+
+    void DonationBitShow()
+    {
+        DonationBits.SetActive(true);
+        DonationBits.GetComponentInChildren<Text>().text = BitsText;
+
     }
 
     public void SwitchingPos(int PosIndex)

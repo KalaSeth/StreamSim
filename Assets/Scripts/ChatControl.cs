@@ -76,50 +76,61 @@ public class ChatControl : MonoBehaviour
         {
             MainChat = RandomChat;
             GameManager.instance.NewCash = Random.Range(15, 50);
+            GameManager.instance.BitsText = "Yoyo! use E to interact with all things";
+
         }else if (GameManager.instance.TaskIndex == 1)
         {
             MainChat = RandomChat1;
             GameManager.instance.NewCash = Random.Range(40, 80);
+            GameManager.instance.BitsText = "Remember to get up from chair before using WASD!";
         }
         else if (GameManager.instance.TaskIndex == 2)
         {
             MainChat = RandomChat2;
             GameManager.instance.NewCash = Random.Range(60, 150);
+                GameManager.instance.BitsText = "Dance habibi";
         }
         else if (GameManager.instance.TaskIndex == 3)
         {
             MainChat = RandomChat3;
             GameManager.instance.NewCash = Random.Range(100, 200);
+            GameManager.instance.BitsText = "You voice is really soothing Bilotha";
         }
         else if (GameManager.instance.TaskIndex == 4)
         {
             MainChat = RandomChat4;
             GameManager.instance.NewCash = Random.Range(150, 200);
+            GameManager.instance.BitsText = "Who dared to knock?";
         }
         else if (GameManager.instance.TaskIndex == 5)
         {
             MainChat = RandomChat5; 
             GameManager.instance.NewCash = Random.Range(2000, 3000);
+            GameManager.instance.BitsText = "Dance with that award Bilu!";
         }
         else if (GameManager.instance.TaskIndex == 6)
         {
             MainChat = RandomChat6;
             GameManager.instance.NewCash = Random.Range(3500, 4000);
+            GameManager.instance.BitsText = "EPIC HEIST MAN!!";
         }
         else if (GameManager.instance.TaskIndex == 7)
         {
             MainChat = RandomChat7;
             GameManager.instance.NewCash = Random.Range(5000, 7000);
+            GameManager.instance.BitsText = "Go outside";
         }
         else if (GameManager.instance.TaskIndex == 8)
         {
             MainChat = RandomChat8;
             GameManager.instance.NewCash = Random.Range(10000, 12000);
+            GameManager.instance.BitsText = "WOOOOOOOOOOOOOOOO";
         }
         else if (GameManager.instance.TaskIndex == 9)
         {
             MainChat = RandomChat9;
             GameManager.instance.NewCash = Random.Range(10000, 12000);
+            GameManager.instance.BitsText = "Break the new Gamla outside";
         }
         
     }
