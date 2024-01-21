@@ -12,9 +12,13 @@ public class Cat_Controller : MonoBehaviour
 
     public float MovSpeed;
 
+    public Animator CatAnim;
+
     private void Awake()
     {
         instance = this;
+        CatAnim = GetComponent<Animator>();
+        CatAnim.SetTrigger("IsSit");
     }
 
     private void Update()
@@ -29,7 +33,6 @@ public class Cat_Controller : MonoBehaviour
                 gameObject.transform.position = TargetChair.transform.position;
                 gameObject.transform.rotation = TargetChair.transform.rotation;
             }
-
         }
 
     }
