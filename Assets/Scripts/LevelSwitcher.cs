@@ -7,6 +7,11 @@ public class LevelSwitcher : MonoBehaviour
 {
     public static LevelSwitcher instance;
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public void GotoMenu()
     {
         SceneManager.LoadScene(1);
