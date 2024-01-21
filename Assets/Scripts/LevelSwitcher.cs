@@ -14,11 +14,13 @@ public class LevelSwitcher : MonoBehaviour
 
     public void GotoMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(1);
     }
 
     public void Chawl()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
 

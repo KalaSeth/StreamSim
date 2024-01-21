@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Chair
+  - Dance
+  - TV
+  - Door
+  - Doorin
+  - Pizza
+  - Toilet
+  - Share
+  - Gamla
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ public class UserChat : MonoBehaviour
     void Start()
     {
       //  UserIcon.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255),255);
-        ChatBase.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255),255);
+        ChatBase.color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255),50);
         Destroy(gameObject, 15);
     }
 
