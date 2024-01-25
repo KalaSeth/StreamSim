@@ -11,6 +11,7 @@ public class SplashSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.DeleteAll();
         Tt = 0;
         Invoke("SwitchSpla", 10);
         ProgSlider.maxValue = 10;
