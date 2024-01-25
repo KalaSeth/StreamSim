@@ -23,11 +23,14 @@ public class GameManager : MonoBehaviour
 
     public bool isDancing;
     public bool isSusu;
+    bool playau;
 
     public Text ViewsText;
     public Text StreamTimeText;
     public string BitsText;
 
+    public AudioSource[] GGAudio;
+ 
     public int CurrentViewers, NewViewer, ViewRate;
     public int Cash, NewCash;
     float StreamTimer;
@@ -59,6 +62,7 @@ public class GameManager : MonoBehaviour
         GotDonation = false;
         LowView = false;
         GameOver = false;
+        playau = false;
         Counter = 11;
         TaskIndex = 0;
         Switch = false;
@@ -117,7 +121,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-
+        if (TaskIndex == 4)
+        {
+            if (playau == false)
+            GGAudio[7].Play();
+            playau = true;
+        }
         // Remove Before Build
 
 

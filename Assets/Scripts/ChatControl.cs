@@ -149,12 +149,12 @@ public class ChatControl : MonoBehaviour
 
     void LiveUserChat()
     {
-        int Index = Random.Range(0,RandomChat.Length);
+        int Index = Random.Range(0, MainChat.Length);
         int Index2 = Random.Range(0,UserNames.Length);
         InstancedUserChat = Instantiate(UserChatPrefab, gameObject.transform).gameObject;
 
         InstancedUserChat.GetComponent<UserChat>().UserIcon.sprite = RandomIcon[Random.Range(0, RandomIcon.Length)];
-        InstancedUserChat.GetComponent<UserChat>().UserChatText.text = RandomChat[Index];
+        InstancedUserChat.GetComponent<UserChat>().UserChatText.text = MainChat[Index];
         InstancedUserChat.GetComponent<UserChat>().UserName.text = UserNames[Index2];
        
     }

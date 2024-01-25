@@ -32,6 +32,6 @@ public class SplashSwitch : MonoBehaviour
     // Update is called once per frame
     void SwitchSpla()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 }
